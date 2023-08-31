@@ -139,6 +139,8 @@ class App extends Component {
           onComplete={this.onSubmitHandler}
         />
 
+        <h2>PIN: 1234</h2>
+
         {/* <input
           value={this.state.input}
           style={this.inputStyle}
