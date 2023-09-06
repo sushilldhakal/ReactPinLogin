@@ -1,8 +1,6 @@
-import React, { Component, useEffect } from "react";
+import React, { Component } from "react";
 
 import { WebcamCapture } from "./Webcam";
-import axios from "axios";
-import swal from "sweetalert";
 import moment from "moment";
 
 import { Tabs, Tab } from "react-bootstrap";
@@ -45,7 +43,7 @@ class Home extends Component {
   onClick = (e) => {
     document.getElementById("webcam-btn").click();
     setTimeout(() => {
-      window.location.href = "http://localhost:3000/";
+      window.location.href = "https://react-pin-login.vercel.app/";
     }, 1000);
   };
 

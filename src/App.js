@@ -100,7 +100,7 @@ class App extends Component {
     this.pin.values = e;
     if (this.state.input == "1234") {
       window.localStorage.setItem("pin", this.state.input);
-      window.location.href = "http://localhost:3000/home";
+      window.location.href = "https://react-pin-login.vercel.app/home";
     } else {
       swal("Invalid PIN!", "Pin you enter didn't match. Try again", "error");
       window.location.reload();
